@@ -5,14 +5,14 @@ import Child from './Child'
 export default function Parent() {
   const user = {
     name: 'Prithvee Singh Yadav',
-    course: 'React',
+    Subject: 'Web Dev 2',
   }
 
   return (
     <DataContext.Provider value={user}>
       <section>
         <h2>Parent Component</h2>
-        <p>This component provides user data to a nested child through Context.</p>
+        <p>hello jee</p>
         <Child />
       </section>
     </DataContext.Provider>
