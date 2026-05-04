@@ -9,7 +9,7 @@ export default function Child() {
     <div>
       <h3>Child Component</h3>
       <p>Name: {user.name}</p>
-      <p>Course: {user.course}</p>
+      <p>Subject: {user.Subject}</p>
     </div>
   )
 }
