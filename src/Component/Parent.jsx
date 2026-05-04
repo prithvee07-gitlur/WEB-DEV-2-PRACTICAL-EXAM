@@ -1,7 +1,6 @@
 import React from 'react'
 import { DataContext } from '../Context/Context'
 import Child from './Child'
-import Counter from './Count'
 
 export default function Parent() {
   const user = {
@@ -11,7 +10,6 @@ export default function Parent() {
 
   return (
     <DataContext.Provider value={user}>
-      <Counter />
       <section>
         <h2>Parent Component</h2>
         <p>This component provides user data to a nested child through Context.</p>
